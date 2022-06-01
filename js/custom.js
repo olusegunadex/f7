@@ -58,7 +58,6 @@ $(window).on("load", function () {
           {
             names: $('input[name="register_names"]').val(),
             email: $('input[name="register_email"]').val(),
-            ticket: $('select[name="register_ticket"]').val(),
           },
           function (data) {
             form.fadeOut("fast", function () {
