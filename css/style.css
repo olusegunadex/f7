@@ -264,7 +264,7 @@ iframe {
 }
 
 .section-bg-2 {
-  background: url(../images/bg10.jpg);
+  background: url(../images/luxury-bg-1.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1025,7 +1025,6 @@ p.contact-info i {
 
 /* -----  Register ----- */
 .register-form-wrapper {
-  margin-top: 25px;
 }
 
 .register-form-wrapper h3 {
@@ -1872,6 +1871,11 @@ ul.partners-mentions li img:hover {
 }
 
 @media (max-width: 768px) {
+  .navbar-fixed-top .navbar-nav {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   .home-section {
     padding-top: 120px;
     padding-bottom: 100px;
@@ -1936,8 +1940,8 @@ ul.partners-mentions li img:hover {
   }
 
   .small-col-inside {
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   input.register-input,
